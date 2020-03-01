@@ -32,14 +32,14 @@ public class ColorsActivity extends AppCompatActivity
         setContentView(R.layout.words_list);
 
         final ArrayList<Word> list = new ArrayList<Word>();
-        list.add(new Word("Red","weṭeṭṭi",R.drawable.color_red,R.raw.color_red));
-        list.add(new Word("Green","Chokokki",R.drawable.color_green,R.raw.color_green));
-        list.add(new Word("Brown","Takaakki",R.drawable.color_brown,R.raw.color_brown));
-        list.add(new Word("Gray","Topoppi",R.drawable.color_gray,R.raw.color_gray));
-        list.add(new Word("Black","Kululli",R.drawable.color_black,R.raw.color_black));
-        list.add(new Word("White","kelelli",R.drawable.color_white,R.raw.color_white));
-        list.add(new Word("Dust Yellow","ṭopiisә",R.drawable.color_dusty_yellow,R.raw.color_dusty_yellow));
-        list.add(new Word("Mustard Yellow","chiwiiṭә",R.drawable.color_mustard_yellow,R.raw.color_mustard_yellow));
+        list.add(new Word("Red","LAAL",R.drawable.color_red,R.raw.color_red));
+        list.add(new Word("Green","Harra",R.drawable.color_green,R.raw.color_green));
+        list.add(new Word("Brown","Bhurra",R.drawable.color_brown,R.raw.color_brown));
+        list.add(new Word("Gray","kallay k qareeb",R.drawable.color_gray,R.raw.color_gray));
+        list.add(new Word("Black","Kalla",R.drawable.color_black,R.raw.color_black));
+        list.add(new Word("White","Safaid",R.drawable.color_white,R.raw.color_white));
+        list.add(new Word("Dust Yellow","Dhundla peela",R.drawable.color_dusty_yellow,R.raw.color_dusty_yellow));
+        list.add(new Word("Mustard Yellow","zarday wala peela",R.drawable.color_mustard_yellow,R.raw.color_mustard_yellow));
 
         final WordAdapter listAdapter = new WordAdapter(this,list,R.color.category_colors);
         final ListView listView = (ListView)findViewById(R.id.list);
