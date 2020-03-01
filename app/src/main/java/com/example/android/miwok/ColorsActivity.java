@@ -35,7 +35,7 @@ public class ColorsActivity extends AppCompatActivity
         list.add(new Word("Red","LAAL",R.drawable.color_red,R.raw.color_red));
         list.add(new Word("Green","Harra",R.drawable.color_green,R.raw.color_green));
         list.add(new Word("Brown","Bhurra",R.drawable.color_brown,R.raw.color_brown));
-        list.add(new Word("Gray","kallay k qareeb",R.drawable.color_gray,R.raw.color_gray));
+        list.add(new Word("Gray",  "kallay k qareeb",R.drawable.color_gray,R.raw.color_gray));
         list.add(new Word("Black","Kalla",R.drawable.color_black,R.raw.color_black));
         list.add(new Word("White","Safaid",R.drawable.color_white,R.raw.color_white));
         list.add(new Word("Dust Yellow","Dhundla peela",R.drawable.color_dusty_yellow,R.raw.color_dusty_yellow));
